@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chleba s Máslem Čelákovice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html"
+          ><img src="./assets/ChlebaSMaslem_logo.png" alt="Logo"
+        /></a>
+
+        <ul>
+          <li><a href="./index.html">O nás</a></li>
+          <li><a href="#contacts">Kontakty</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+        </ul>
+        <div>
+          <a href="https://www.instagram.com/chlebasmaslem.cel" target="_blank"
+            ><i
+              class="bx bxl-instagram bx-lg bx-tada-hover"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="https://www.facebook.com/chlebasmaslem.cel" target="_blank"
+            ><i
+              class="bx bxl-facebook-circle bx-lg bx-tada-hover"
+              style="color: #fff"
+            ></i
+          ></a>
+        </div>
+      </nav>
+      <main>
+        <h1>Chleba s máslem z Čelákovic</h1>
+        <p>
+          Netradiční kavárna a pekárna s venkovním sezením. Výběrová káva a
+          pečivo od kvalitních dodavatelů.
+        </p>
+
+        <div class="main-buttons">
+          <div class="button"><a href="#cards">Co nabízíme</a></div>
+          <div class="button"><a href="#contacts">Kde nás najdete</a></div>
+        </div>
+      </main>
+    </header>
+
+    <section id="cards">
+      <div class="card">
+        <img src="./assets/kafe.jpg" alt="Káva" />
+        <div class="card-container">
+          <p>Kvalitní Výběrová káva La Bohéme Café</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/kolace.jpg" alt="koláče" />
+        <div class="card-container">
+          <p>Vždy čerstvé pečivo</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/zmrzlina.jpg" alt="zmrzlina" />
+        <div class="card-container">
+          <p>Kvalitní řemeslná zmrzlina</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="contacts-card">
+        <h2>Otevírací doba:</h2>
+        <p>
+          PO: ZAVŘENO<br />
+          ÚT: 7:00-12:00 A 14:00-18:00<br />
+          ST: 7:00-12:00 A 14:00-18:00<br />
+          ČT: 7:00-12:00 A 14:00-18:00<br />
+          PÁ: 7:00-12:00 A 14:00-18:00<br />
+          SO: ZAVŘENO<br />
+          NE: ZAVŘENO<br />
+        </p>
+      </div>
+      <div class="contacts-card address">
+        <h2>Adresa:</h2>
+        <p>
+          Chleba s Máslem <br />
+          Prokopa Holého 744/7<br />
+          250 88<br />
+          Čelákovice<br />
+        </p>
+      </div>
+      <div class="contacts-card map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2555.9104922491615!2d14.739540777017679!3d50.16281060803216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bf778bc512c25%3A0x6da64086d6d4cb0f!2sChleba%20s%20m%C3%A1slem!5e0!3m2!1scs!2scz!4v1729878697056!5m2!1scs!2scz"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="./assets/Gallery/01.jpg" alt="01" />
+          <img src="./assets/Gallery/02.jpg" alt="02" />
+          <img src="./assets/Gallery/03.jpg" alt="03" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="./assets/Gallery/04.jpg" alt="01" />
+          <img src="./assets/Gallery/05.jpg" alt="02" />
+          <img src="./assets/Gallery/06.jpg" alt="03" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>© 2024 Chleba s Máslem | created by Lukáš Dlábek</p>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/chlebasmaslem.cel" target="_blank"
+          ><i class="bx bxl-instagram bx-sm" style="color: #fff"></i
+        ></a>
+        <a href="https://www.facebok.com/chlebasmaslem.cel" target="_blank"
+          ><i class="bx bxl-facebook-circle bx-sm" style="color: #fff"></i
+        ></a>
+      </div>
+    </footer>
+
+    <div id="back" onclick="topFunction()">
+      <i class="bx bxs-chevrons-up bx-lg" style="color: #fff"></i>
+      <p>TOP</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
